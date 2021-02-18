@@ -1,0 +1,118 @@
+/*general formatting*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2{
+    color: #f7b600;
+}
+h3{
+    color: white;
+    background: #f7b600;
+    padding: 5px;
+}
+/*Header style*/
+.header{
+    width: 100%;
+    background: #f7b600;
+    text-align: center;
+    padding: 10px;  
+}
+/*Logo style*/
+.blog{
+    color: white;
+}
+/*Menu style*/
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+a:link,a:visited{
+    color: white;
+}
+a:hover{
+    color:#f7b600;
+    background: white;
+}
+.menu{
+    padding: 15px;
+}
+/*Principal style*/
+.principal{
+    width: 920px;
+    margin: 15px auto;
+}
+/*Post style*/
+.principal{
+    padding: 0px;
+   
+    
+}
+.post{
+    width: 660px;
+    float: left;
+}
+.post1{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+img{
+    width: 620px;
+    padding: 0px;
+}
+.principal a{
+    padding: 0px;
+}
+.principal a:visited, .principal a:link{
+    padding-top: 0px ;
+    color: #f7b600;
+}
+.principal a:hover{
+    padding: 0px;
+    color: #f7b600;
+    background: none;
+    text-decoration: underline;
+}
+/*Style menu-lateral*/
+.menu-lateral{
+    float: right;
+    width: 240px;
+}
+.conteudo-lateral{
+    background: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.post-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: #CCC 1px dotted;
+}
+/*Style categoria*/
+.categorias{
+    background: white;
+    width: 240px;
+    padding: 5px;
+}
+.rodape{
+    text-align: center;
+    clear: both;
+    background: #CCC;
+    padding: 15px;
+}
